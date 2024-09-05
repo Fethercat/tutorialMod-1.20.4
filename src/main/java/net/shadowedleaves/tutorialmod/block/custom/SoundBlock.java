@@ -33,7 +33,8 @@ public class SoundBlock extends Block {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable BlockView world, List<Text> tooltip, TooltipContext options) {
-        tooltip.add(Text.literal("Sound Event:\n\nBLOCK_NOTE_BLOCK_IMITATE_ENDER_DRAGON"));
+        tooltip.add(Text.literal("Sound Event:"));
+        tooltip.add(Text.literal("BLOCK_NOTE_BLOCK_IMITATE_ENDER_DRAGON"));
         super.appendTooltip(stack, world, tooltip, options);
     }
 }
