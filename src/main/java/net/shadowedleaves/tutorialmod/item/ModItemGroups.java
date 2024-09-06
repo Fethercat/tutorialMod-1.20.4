@@ -34,8 +34,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_FENCE_GATE);
                         entries.add(ModBlocks.RUBY_SLAB);
                         entries.add(ModBlocks.RUBY_STAIRS);
-                        entries.add(ModBlocks.RUBY_DOOR);
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
+                        entries.add(ModBlocks.RUBY_WALL);
                     }).build());
 
     public static void registerItemGroups() {
