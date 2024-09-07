@@ -6,7 +6,7 @@ import net.minecraft.item.FoodComponent;
 
 public class ModFoodComponents {
     public static final FoodComponent TOMATO = new FoodComponent.Builder().hunger(3).saturationModifier(0.25f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 1200), 0.5f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 1200), 0.5f)
             .alwaysEdible()
             .build();
 }
