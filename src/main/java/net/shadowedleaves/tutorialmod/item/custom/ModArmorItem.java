@@ -1,4 +1,4 @@
-package net.shadowedleaves.tutorialmod.block.custom;
+package net.shadowedleaves.tutorialmod.item.custom;
 
 import com.google.common.collect.ImmutableMap;
 import net.shadowedleaves.tutorialmod.item.ModArmorMaterials;

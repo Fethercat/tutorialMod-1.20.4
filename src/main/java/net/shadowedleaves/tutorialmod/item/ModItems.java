@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.shadowedleaves.tutorialmod.TutorialMod;
-import net.shadowedleaves.tutorialmod.block.custom.ModArmorItem;
+import net.shadowedleaves.tutorialmod.item.custom.ModArmorItem;
 import net.shadowedleaves.tutorialmod.item.custom.MetalDetectorItem;
 
 public class ModItems {
