@@ -34,6 +34,7 @@
   "block.tutorialmod.ruby_door": "Ruby Door",
   "block.tutorialmod.ruby_trapdoor": "Ruby Trapdoor",
   "block.tutorialmod.dahlia": "Dahlia",
+  "sounds.tutorialmod.metal_detector_found_ore": "Metal Detector Beep",
   "entity.minecraft.villager.sound_master": "Soundmaster",
   "tooltip.tutorialmod.metal_detector.tooltip": "Custom Abilities:",
   "tooltip.tutorialmod.metal_detector.tooltip.line2": "Right Click on a block to find valuables underground!",

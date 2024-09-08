@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.shadowedleaves.tutorialmod.block.ModBlocks;
 import net.shadowedleaves.tutorialmod.item.ModItemGroups;
 import net.shadowedleaves.tutorialmod.item.ModItems;
+import net.shadowedleaves.tutorialmod.sound.ModSounds;
 import net.shadowedleaves.tutorialmod.util.ModCustomTrades;
 import net.shadowedleaves.tutorialmod.util.ModLootTableModifiers;
 import net.shadowedleaves.tutorialmod.villager.ModVillagers;
@@ -24,6 +25,7 @@ public class TutorialMod implements ModInitializer {
 		ModLootTableModifiers.modifyLootTables();
 		ModCustomTrades.registerCustomTrades();
 		ModVillagers.registerVillagers();
+		ModSounds.registerSounds();
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }

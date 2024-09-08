@@ -1,4 +1,4 @@
-// 1.20.4	2024-09-08T12:24:37.6915115	Tutorial Mod/Model Definitions
+// 1.20.4	2024-09-08T13:07:56.0889868	Tutorial Mod/Model Definitions
 ad5c254ef1c302341b0c5136373077cbe54b18ef assets\tutorialmod\models\block\ruby_door_bottom_left.json
 c4fb1971fbcf884dcf3d21c40988fd0365b2541d assets\tutorialmod\models\item\ruby_boots_copper_trim.json
 cbaf10e47de871b0bade833bc962396ef1a0bf50 assets\tutorialmod\models\block\corn_crop_stage6.json
@@ -62,8 +62,8 @@ e93e5d2c8c8e036c7383d253b6ed71d3f3cc7baa assets\tutorialmod\models\block\nether_
 adc34350b7efaf373e4975c3758e7b880ede78cd assets\tutorialmod\models\item\ruby_slab.json
 cc64d3cc92773f7cc42627d2ed90a5783dd15824 assets\tutorialmod\models\block\corn_crop_stage2.json
 ab328a99e65fed08119dbb5356cd6c7edf239107 assets\tutorialmod\models\item\ruby_helmet_netherite_trim.json
-74dd3aa76a0cede507cba07afd06770704b2f477 assets\tutorialmod\blockstates\ruby_pressure_plate.json
 a31d254244420e3751599cfbc5304a9779c2e843 assets\tutorialmod\blockstates\corn_crop.json
+74dd3aa76a0cede507cba07afd06770704b2f477 assets\tutorialmod\blockstates\ruby_pressure_plate.json
 8444238f04261c56864325fc5edb2ff814c1ea77 assets\tutorialmod\models\block\corn_crop_stage8.json
 d8b2580ea6eef824075bad08fc4b4a5c6bde7a19 assets\tutorialmod\models\item\ruby_helmet_copper_trim.json
 9153bba5c81235e9d62cd58ae1fb8a7084beb589 assets\tutorialmod\models\block\ruby_slab.json
@@ -108,8 +108,8 @@ bdac27efd46b299101b2f7bf1341e1de1c83b3f2 assets\tutorialmod\models\block\ruby_wa
 de1b322d97929c84f07ee7634cc04489dd96a7e6 assets\tutorialmod\blockstates\end_stone_ruby_ore.json
 4a19a801e98fb8e89f84c029ba6b1121d2fd2145 assets\tutorialmod\models\block\ruby_fence_inventory.json
 6126e26da373f9113d9e9be875b14a0d13857444 assets\tutorialmod\models\item\corn.json
-485384019f305ec87b30f495517b1a4b26bf6573 assets\tutorialmod\models\item\ruby_helmet_amethyst_trim.json
 1cac72dfcf0953756533a59048855cf9639b0f27 assets\tutorialmod\models\block\ruby_button_pressed.json
+485384019f305ec87b30f495517b1a4b26bf6573 assets\tutorialmod\models\item\ruby_helmet_amethyst_trim.json
 4e9f1e7b5c4224f640daae5016c9d825c894ad71 assets\tutorialmod\models\item\ruby_helmet_iron_trim.json
 ccaabea26ed1357f15716aad8ecc1e26977f745d assets\tutorialmod\blockstates\tomato_crop.json
 39e9b89df0e0f4d1ad4df7c0e02f51da152ae195 assets\tutorialmod\models\item\ruby_boots_amethyst_trim.json
