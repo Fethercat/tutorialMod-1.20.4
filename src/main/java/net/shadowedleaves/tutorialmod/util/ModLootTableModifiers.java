@@ -1,7 +1,7 @@
 package net.shadowedleaves.tutorialmod.util;
 
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
-//import net.minecraft.loot.LootTables;
+import net.minecraft.loot.LootTables;
 import net.shadowedleaves.tutorialmod.item.ModItems;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
@@ -41,12 +41,12 @@ public class ModLootTableModifiers {
                 tableBuilder.pool(poolBuilder.build());
             }
 
-//            if (key == LootTables.DESERT_PYRAMID_ARCHAEOLOGY) {
-//                tableBuilder.modifyPools(builder -> {
-//                    builder.with(ItemEntry.builder(ModItems.METAL_DETECTOR).build());
-//                    builder.with(ItemEntry.builder(ModItems.COAL_BRIQUETTE).build());
+            if (LootTables.DESERT_PYRAMID_ARCHAEOLOGY.equals(id)) {
+                tableBuilder.modifyPools(builder -> {
+                    builder.with(ItemEntry.builder(ModItems.METAL_DETECTOR).build());
+                    builder.with(ItemEntry.builder(ModItems.COAL_BRIQUETTE).build());
                 });
             }
-//        });
+        });
     }
-//}
+}
