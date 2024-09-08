@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/crop",
   "textures": {
-    "crop": "tutorialmod:block/cornCrop/corn_crop_stage8"
+    "crop": "tutorialmod:block/corncrop/corn_crop_stage8"
   }
 }
