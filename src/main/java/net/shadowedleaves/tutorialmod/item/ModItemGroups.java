@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModItems.CORN);
                         entries.add(ModItems.CORN_SEEDS);
+                        entries.add(ModBlocks.DAHLIA);
                         entries.add(ModItems.COAL_BRIQUETTE);
                         entries.add(ModItems.RUBY_STAFF);
                         entries.add(ModBlocks.RUBY_BLOCK);

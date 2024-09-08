@@ -33,6 +33,7 @@
   "block.tutorialmod.ruby_wall": "Ruby Wall",
   "block.tutorialmod.ruby_door": "Ruby Door",
   "block.tutorialmod.ruby_trapdoor": "Ruby Trapdoor",
+  "block.tutorialmod.dahlia": "Dahlia",
   "tooltip.tutorialmod.metal_detector.tooltip": "Custom Abilities:",
   "tooltip.tutorialmod.metal_detector.tooltip.line2": "Right Click on a block to find valuables underground!",
   "itemgroup.ruby": "Ruby Group"
