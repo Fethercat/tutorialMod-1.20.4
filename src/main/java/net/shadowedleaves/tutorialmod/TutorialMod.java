@@ -8,6 +8,7 @@ import net.shadowedleaves.tutorialmod.item.ModItemGroups;
 import net.shadowedleaves.tutorialmod.item.ModItems;
 import net.shadowedleaves.tutorialmod.util.ModCustomTrades;
 import net.shadowedleaves.tutorialmod.util.ModLootTableModifiers;
+import net.shadowedleaves.tutorialmod.villager.ModVillagers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,6 +23,7 @@ public class TutorialMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModLootTableModifiers.modifyLootTables();
 		ModCustomTrades.registerCustomTrades();
+		ModVillagers.registerVillagers();
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }
