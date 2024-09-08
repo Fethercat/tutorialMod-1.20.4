@@ -40,6 +40,8 @@
   "sounds.tutorialmod.sound_block_place": "Block placed",
   "sounds.tutorialmod.sound_block_break": "Block broken",
   "sounds.tutorialmod.sound_block_fall": "Something fell",
+  "item.tutorialmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
   "entity.minecraft.villager.sound_master": "Soundmaster",
   "tooltip.tutorialmod.metal_detector.tooltip": "Custom Abilities:",
   "tooltip.tutorialmod.metal_detector.tooltip.line2": "Right Click on a block to find valuables underground!",

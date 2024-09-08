@@ -11,6 +11,7 @@ import net.shadowedleaves.tutorialmod.TutorialMod;
 import net.shadowedleaves.tutorialmod.block.ModBlocks;
 import net.shadowedleaves.tutorialmod.item.custom.ModArmorItem;
 import net.shadowedleaves.tutorialmod.item.custom.MetalDetectorItem;
+import net.shadowedleaves.tutorialmod.sound.ModSounds;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
@@ -22,6 +23,9 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
     public static final Item CORN = registerItem("corn",
             new Item(new FabricItemSettings()));
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new MusicDiscItem(7, ModSounds.BAR_BRAWL, new FabricItemSettings()
+                    .maxCount(1), 122));
     public static final Item CORN_SEEDS = registerItem("corn_seeds",
             new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette", new Item(new FabricItemSettings()));
