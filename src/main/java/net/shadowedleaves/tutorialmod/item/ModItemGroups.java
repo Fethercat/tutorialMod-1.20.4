@@ -26,6 +26,7 @@ public class ModItemGroups {
                         entries.add(ModItems.COAL_BRIQUETTE);
                         entries.add(ModItems.RUBY_STAFF);
                         entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+                        entries.add(ModItems.PORCUPINE_SPAWN_EGG);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);

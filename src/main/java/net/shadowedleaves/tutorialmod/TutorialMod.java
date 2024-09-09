@@ -2,8 +2,11 @@ package net.shadowedleaves.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.shadowedleaves.tutorialmod.block.ModBlocks;
+import net.shadowedleaves.tutorialmod.entity.ModEntities;
+import net.shadowedleaves.tutorialmod.entity.custom.PorcupineEntity;
 import net.shadowedleaves.tutorialmod.item.ModItemGroups;
 import net.shadowedleaves.tutorialmod.item.ModItems;
 import net.shadowedleaves.tutorialmod.sound.ModSounds;
@@ -26,6 +29,7 @@ public class TutorialMod implements ModInitializer {
 		ModCustomTrades.registerCustomTrades();
 		ModVillagers.registerVillagers();
 		ModSounds.registerSounds();
+		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }
