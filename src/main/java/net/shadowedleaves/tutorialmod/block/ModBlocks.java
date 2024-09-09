@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.shadowedleaves.tutorialmod.TutorialMod;
 import net.shadowedleaves.tutorialmod.block.custom.CornCropBlock;
+import net.shadowedleaves.tutorialmod.block.custom.GemPolishingStationBlock;
 import net.shadowedleaves.tutorialmod.block.custom.SoundBlock;
 import net.shadowedleaves.tutorialmod.block.custom.TomatoCropBlock;
 import net.shadowedleaves.tutorialmod.sound.ModSounds;
@@ -61,6 +62,8 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "potted_dahlia"),
             new FlowerPotBlock(DAHLIA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+    public static final Block GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
+            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

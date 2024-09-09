@@ -43,6 +43,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_STAIRS);
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
                         entries.add(ModBlocks.RUBY_WALL);
+                        entries.add(ModBlocks.GEM_POLISHING_STATION);
                         entries.add(ModItems.RUBY_PICKAXE);
                         entries.add(ModItems.RUBY_AXE);
                         entries.add(ModItems.RUBY_SHOVEL);
