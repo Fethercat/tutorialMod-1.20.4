@@ -44,6 +44,7 @@
   "item.tutorialmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
   "entity.minecraft.villager.sound_master": "Soundmaster",
+  "entity.tutorialmod.porcupine": "Porcupine",
   "tooltip.tutorialmod.metal_detector.tooltip": "Custom Abilities:",
   "tooltip.tutorialmod.metal_detector.tooltip.line2": "Right Click on a block to find valuables underground!",
   "itemgroup.ruby": "Ruby Group"
