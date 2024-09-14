@@ -53,6 +53,12 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_CHESTPLATE);
                         entries.add(ModItems.RUBY_LEGGINGS);
                         entries.add(ModItems.RUBY_BOOTS);
+                        entries.add(ModBlocks.CHESTNUT_LOG);
+                        entries.add(ModBlocks.CHESTNUT_WOOD);
+                        entries.add(ModBlocks.STRIPPED_CHESTNUT_LOG);
+                        entries.add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+                        entries.add(ModBlocks.CHESTNUT_PLANKS);
+                        entries.add(ModBlocks.CHESTNUT_LEAVES);
                     }).build());
 
     public static void registerItemGroups() {
