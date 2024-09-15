@@ -1,0 +1,7 @@
+// 1.20.4	2024-09-14T22:41:49.6094977	Tutorial Mod/World Gen
+2a9e8bc3d0d0de4f56f10ec9918684f3f43428fe data\tutorialmod\worldgen\configured_feature\end_ruby_ore.json
+166fe39050d4cc55faa450c26987c4eee2d48426 data\tutorialmod\worldgen\placed_feature\ruby_ore_placed.json
+a61c6f5df084c8a3bf830a124ae43ae808de06fd data\tutorialmod\worldgen\placed_feature\nether_ruby_ore_placed.json
+b472e10e1b9f74d0a39bd40797201b278b492c3b data\tutorialmod\worldgen\configured_feature\ruby_ore.json
+ed13abb0cfb9efe475df80957c3b3a7c6c78abf2 data\tutorialmod\worldgen\configured_feature\nether_ruby_ore.json
+77574f00e91832bbbb284c925e5348e04ea3dfe5 data\tutorialmod\worldgen\placed_feature\end_ruby_ore_placed.json
