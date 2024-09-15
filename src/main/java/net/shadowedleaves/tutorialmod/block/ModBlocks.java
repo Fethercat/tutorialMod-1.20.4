@@ -18,10 +18,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.shadowedleaves.tutorialmod.TutorialMod;
-import net.shadowedleaves.tutorialmod.block.custom.CornCropBlock;
-import net.shadowedleaves.tutorialmod.block.custom.GemPolishingStationBlock;
-import net.shadowedleaves.tutorialmod.block.custom.SoundBlock;
-import net.shadowedleaves.tutorialmod.block.custom.TomatoCropBlock;
+import net.shadowedleaves.tutorialmod.block.custom.*;
 import net.shadowedleaves.tutorialmod.sound.ModSounds;
 
 public class ModBlocks {
@@ -107,6 +104,9 @@ public class ModBlocks {
             new Identifier(TutorialMod.MOD_ID, "chestnut_wall_hanging_sign"),
             new TerraformWallHangingSignBlock(CHESTNUT_HANGING_SIGN_TEXTURE, CHESTNUT_HANGING_GUI_SIGN_TEXTURE,
                     FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN)));
+
+    public static final Block DICE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "dice_block"),
+            new DiceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     public static final BlockFamily CHESTNUT_FAMILY = BlockFamilies.register(ModBlocks.CHESTNUT_PLANKS)
             .sign(ModBlocks.STANDING_CHESTNUT_SIGN, ModBlocks.WALL_CHESTNUT_SIGN)

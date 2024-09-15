@@ -82,5 +82,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.HANGING_CHESTNUT_SIGN, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHESTNUT_BOAT, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHESTNUT_CHEST_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DICE, Models.GENERATED);
     }
 }

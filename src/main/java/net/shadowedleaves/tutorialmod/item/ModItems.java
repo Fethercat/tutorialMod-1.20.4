@@ -13,6 +13,7 @@ import net.shadowedleaves.tutorialmod.TutorialMod;
 import net.shadowedleaves.tutorialmod.block.ModBlocks;
 import net.shadowedleaves.tutorialmod.entity.ModBoats;
 import net.shadowedleaves.tutorialmod.entity.ModEntities;
+import net.shadowedleaves.tutorialmod.item.custom.DiceItem;
 import net.shadowedleaves.tutorialmod.item.custom.ModArmorItem;
 import net.shadowedleaves.tutorialmod.item.custom.MetalDetectorItem;
 import net.shadowedleaves.tutorialmod.sound.ModSounds;
@@ -65,6 +66,9 @@ public class ModItems {
             .registerBoatItem(ModBoats.CHESTNUT_BOAT_ID, ModBoats.CHESTNUT_BOAT_KEY, false);
     public static final Item CHESTNUT_CHEST_BOAT = TerraformBoatItemHelper
             .registerBoatItem(ModBoats.CHESTNUT_CHEST_BOAT_ID, ModBoats.CHESTNUT_BOAT_KEY, true);
+
+    public static final Item DICE = registerItem("dice",
+            new DiceItem(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
