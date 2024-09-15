@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.shadowedleaves.tutorialmod.block.ModBlocks;
 import net.shadowedleaves.tutorialmod.block.entity.ModBlockEntities;
+import net.shadowedleaves.tutorialmod.entity.ModBoats;
 import net.shadowedleaves.tutorialmod.entity.ModEntities;
 import net.shadowedleaves.tutorialmod.entity.custom.PorcupineEntity;
 import net.shadowedleaves.tutorialmod.item.ModItemGroups;
@@ -47,5 +48,6 @@ public class TutorialMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_CHESTNUT_WOOD, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_PLANKS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_LEAVES, 30, 60);
+		ModBoats.registerBoats();
 	}
 }

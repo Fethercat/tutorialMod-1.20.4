@@ -29,6 +29,8 @@ public class ModItemGroups {
                         entries.add(ModItems.PORCUPINE_SPAWN_EGG);
                         entries.add(ModItems.CHESTNUT_SIGN);
                         entries.add(ModItems.HANGING_CHESTNUT_SIGN);
+                        entries.add(ModItems.CHESTNUT_BOAT);
+                        entries.add(ModItems.CHESTNUT_CHEST_BOAT);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);

@@ -80,5 +80,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PORCUPINE_SPAWN_EGG,
                 new Model(Optional.of(new Identifier("item/template_spawn_egg")), Optional.empty()));
         itemModelGenerator.register(ModItems.HANGING_CHESTNUT_SIGN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHESTNUT_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHESTNUT_CHEST_BOAT, Models.GENERATED);
     }
 }

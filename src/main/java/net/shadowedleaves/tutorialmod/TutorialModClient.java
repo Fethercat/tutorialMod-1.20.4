@@ -1,5 +1,6 @@
 package net.shadowedleaves.tutorialmod;
 
+import com.terraformersmc.terraform.boat.api.client.TerraformBoatClientHelper;
 import com.terraformersmc.terraform.sign.SpriteIdentifierRegistry;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -11,6 +12,7 @@ import net.minecraft.client.util.SpriteIdentifier;
 import net.shadowedleaves.tutorialmod.block.ModBlocks;
 import net.shadowedleaves.tutorialmod.block.entity.ModBlockEntities;
 import net.shadowedleaves.tutorialmod.block.entity.renderer.GemPolishingBlockEntityRenderer;
+import net.shadowedleaves.tutorialmod.entity.ModBoats;
 import net.shadowedleaves.tutorialmod.entity.ModEntities;
 import net.shadowedleaves.tutorialmod.entity.client.ModModelLayers;
 import net.shadowedleaves.tutorialmod.entity.client.PorcupineModel;
@@ -36,5 +38,6 @@ public class TutorialModClient implements ClientModInitializer {
         BlockEntityRendererFactories.register(ModBlockEntities.GEM_POLISHING_STATION_BLOCK_ENTITY, GemPolishingBlockEntityRenderer::new);
         SpriteIdentifierRegistry.INSTANCE.addIdentifier(new SpriteIdentifier(TexturedRenderLayers.SIGNS_ATLAS_TEXTURE, ModBlocks.CHESTNUT_SIGN_TEXTURE));
         SpriteIdentifierRegistry.INSTANCE.addIdentifier(new SpriteIdentifier(TexturedRenderLayers.SIGNS_ATLAS_TEXTURE, ModBlocks.CHESTNUT_HANGING_SIGN_TEXTURE));
+        TerraformBoatClientHelper.registerModelLayers(ModBoats.CHESTNUT_BOAT_ID, false);
     }
 }

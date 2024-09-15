@@ -1,5 +1,7 @@
 package net.shadowedleaves.tutorialmod.item;
 
+import com.terraformersmc.terraform.boat.api.item.TerraformBoatItemHelper;
+import com.terraformersmc.terraform.boat.impl.item.TerraformBoatItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -9,6 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.shadowedleaves.tutorialmod.TutorialMod;
 import net.shadowedleaves.tutorialmod.block.ModBlocks;
+import net.shadowedleaves.tutorialmod.entity.ModBoats;
 import net.shadowedleaves.tutorialmod.entity.ModEntities;
 import net.shadowedleaves.tutorialmod.item.custom.ModArmorItem;
 import net.shadowedleaves.tutorialmod.item.custom.MetalDetectorItem;
@@ -56,7 +59,12 @@ public class ModItems {
     public static final Item CHESTNUT_SIGN = registerItem("chestnut_sign",
             new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.STANDING_CHESTNUT_SIGN, ModBlocks.WALL_CHESTNUT_SIGN));
     public static final Item HANGING_CHESTNUT_SIGN = registerItem("chestnut_hanging_sign",
-            new HangingSignItem(ModBlocks.HANGING_CHESTNUT_SIGN, ModBlocks.WALL_HANGING_CHESTNUT_SIGN, new FabricItemSettings().maxCount(16)));
+            new HangingSignItem(ModBlocks.HANGING_CHESTNUT_SIGN, ModBlocks.WALL_HANGING_CHESTNUT_SIGN, new FabricItemSettings()
+                    .maxCount(16)));
+    public static final Item CHESTNUT_BOAT = TerraformBoatItemHelper
+            .registerBoatItem(ModBoats.CHESTNUT_BOAT_ID, ModBoats.CHESTNUT_BOAT_KEY, false);
+    public static final Item CHESTNUT_CHEST_BOAT = TerraformBoatItemHelper
+            .registerBoatItem(ModBoats.CHESTNUT_CHEST_BOAT_ID, ModBoats.CHESTNUT_BOAT_KEY, true);
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
