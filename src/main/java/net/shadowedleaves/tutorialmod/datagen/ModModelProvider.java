@@ -53,6 +53,7 @@ public class ModModelProvider extends FabricModelProvider {
                 .log(ModBlocks.STRIPPED_CHESTNUT_LOG)
                 .wood(ModBlocks.STRIPPED_CHESTNUT_WOOD);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHESTNUT_LEAVES);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.CHESTNUT_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         BlockStateModelGenerator.BlockTexturePool chestnut_pool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHESTNUT_PLANKS);

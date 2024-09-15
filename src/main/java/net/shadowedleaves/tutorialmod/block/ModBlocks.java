@@ -20,6 +20,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.shadowedleaves.tutorialmod.TutorialMod;
 import net.shadowedleaves.tutorialmod.block.custom.*;
 import net.shadowedleaves.tutorialmod.sound.ModSounds;
+import net.shadowedleaves.tutorialmod.world.tree.ModSaplingGenerators;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -107,6 +108,9 @@ public class ModBlocks {
 
     public static final Block DICE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "dice_block"),
             new DiceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block CHESTNUT_SAPLING = registerBlock("chestnut_sapling",
+            new SaplingBlock(ModSaplingGenerators.CHESTNUT, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
     public static final BlockFamily CHESTNUT_FAMILY = BlockFamilies.register(ModBlocks.CHESTNUT_PLANKS)
             .sign(ModBlocks.STANDING_CHESTNUT_SIGN, ModBlocks.WALL_CHESTNUT_SIGN)
