@@ -57,5 +57,10 @@
   "entity.tutorialmod.porcupine": "Porcupine",
   "tooltip.tutorialmod.metal_detector.tooltip": "Custom Abilities:",
   "tooltip.tutorialmod.metal_detector.tooltip.line2": "Right Click on a block to find valuables underground!",
-  "itemgroup.ruby": "Ruby Group"
+  "itemgroup.ruby": "Ruby Group",
+  "tutorialmod.sound_block_step": "Footsteps",
+  "tutorialmod.sound_block_hit": "Block breaking",
+  "tutorialmod.sound_block_place": "Block placed",
+  "tutorialmod.sound_block_break": "Block broken",
+  "tutorialmod.sound_block_fall": "Something fell"
 }
