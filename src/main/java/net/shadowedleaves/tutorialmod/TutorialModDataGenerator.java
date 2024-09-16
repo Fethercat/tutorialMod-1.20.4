@@ -7,6 +7,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.shadowedleaves.tutorialmod.datagen.*;
 import net.shadowedleaves.tutorialmod.world.ModConfiguredFeatures;
 import net.shadowedleaves.tutorialmod.world.ModPlacedFeatures;
+import net.shadowedleaves.tutorialmod.world.biome.ModBiomes;
 
 public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -26,5 +27,6 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.BIOME, ModBiomes::bootstrap);
 	}
 }

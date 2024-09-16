@@ -26,6 +26,9 @@
 		],
 		"rei_client": [
 			"net.shadowedleaves.tutorialmod.compat.TutorialModREIClientPlugin"
+		],
+		"terrablender": [
+			"net.shadowedleaves.tutorialmod.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [
