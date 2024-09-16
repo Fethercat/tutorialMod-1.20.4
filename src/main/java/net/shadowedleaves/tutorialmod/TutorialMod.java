@@ -6,6 +6,8 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
+import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
+import net.minecraft.util.Identifier;
 import net.shadowedleaves.tutorialmod.block.ModBlocks;
 import net.shadowedleaves.tutorialmod.block.entity.ModBlockEntities;
 import net.shadowedleaves.tutorialmod.entity.ModBoats;
@@ -55,5 +57,11 @@ public class TutorialMod implements ModInitializer {
 		ModWorldGeneration.generateModWorldGen();
 		ModTrunkPlacerTypes.register();
 		ModFoliagePlacerTypes.register();
+		CustomPortalBuilder.beginPortal()
+				.frameBlock(ModBlocks.RUBY_BLOCK)
+				.lightWithItem(ModItems.RUBY_STAFF)
+				.destDimID(new Identifier(TutorialMod.MOD_ID, "shadoweddim"))
+				.tintColor(0x9d0c62)
+				.registerPortal();
 	}
 }

@@ -1,0 +1,48 @@
+{
+  "type": "tutorialmod:shadoweddim_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "minecraft:ocean",
+          "parameters": {
+            "temperature": -0.15,
+            "humidity": 0.2,
+            "continentalness": 0.1,
+            "erosion": -0.1,
+            "weirdness": 0.1,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:plains",
+          "parameters": {
+            "temperature": 0.15,
+            "humidity": 0.1,
+            "continentalness": 0.1,
+            "erosion": 0.2,
+            "weirdness": -0.1,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "tutorialmod:ruby_land",
+          "parameters": {
+            "temperature": -0.1,
+            "humidity": 0.2,
+            "continentalness": 0.2,
+            "erosion": 0.1,
+            "weirdness": 0.1,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}
