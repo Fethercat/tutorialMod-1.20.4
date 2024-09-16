@@ -3,9 +3,7 @@ package net.shadowedleaves.tutorialmod.world;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
-import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
-import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 import net.shadowedleaves.tutorialmod.TutorialMod;
 import net.shadowedleaves.tutorialmod.block.ModBlocks;
 import net.minecraft.block.Blocks;
@@ -17,6 +15,7 @@ import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.structure.rule.RuleTest;
 import net.minecraft.structure.rule.TagMatchRuleTest;
 import net.minecraft.util.Identifier;
+import net.shadowedleaves.tutorialmod.world.tree.custom.ChestnutFoliagePlacer;
 import net.shadowedleaves.tutorialmod.world.tree.custom.ChestnutTrunkPlacer;
 
 import java.util.List;
@@ -53,7 +52,7 @@ public class ModConfiguredFeatures {
                 new ChestnutTrunkPlacer(5, 4, 3),
 
                 BlockStateProvider.of(ModBlocks.CHESTNUT_LEAVES),
-                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
+                new ChestnutFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
                 new TwoLayersFeatureSize(1, 0, 2)).build());
     }
 

@@ -1,4 +1,4 @@
-// 1.20.4	2024-09-15T14:47:25.9342019	Tutorial Mod/Model Definitions
+// 1.20.4	2024-09-15T17:55:06.4174945	Tutorial Mod/Model Definitions
 ad5c254ef1c302341b0c5136373077cbe54b18ef assets\tutorialmod\models\block\ruby_door_bottom_left.json
 60408af53b4f0f602ab7dd1c56ab00ac9fa2f36b assets\tutorialmod\models\block\chestnut_standing_sign.json
 c4fb1971fbcf884dcf3d21c40988fd0365b2541d assets\tutorialmod\models\item\ruby_boots_copper_trim.json
@@ -141,8 +141,8 @@ ccaabea26ed1357f15716aad8ecc1e26977f745d assets\tutorialmod\blockstates\tomato_c
 eaa086e1e5925260a7f03536f97f291f57135a23 assets\tutorialmod\models\item\ruby_wall.json
 1eb9a0f8eb2ec50964987686d6255b4dc174a04e assets\tutorialmod\models\item\chestnut_planks.json
 77d1255940a4af09a490e2e965a2abf8b5598824 assets\tutorialmod\models\block\ruby_door_top_right_open.json
-f643f34a95274bef6bc781b8ba22b1969ff252e5 assets\tutorialmod\models\item\ruby_helmet_lapis_trim.json
 dac8730911a1737e4cdd2e70cfc8d32b0b0ba457 assets\tutorialmod\models\block\sound_block.json
+f643f34a95274bef6bc781b8ba22b1969ff252e5 assets\tutorialmod\models\item\ruby_helmet_lapis_trim.json
 b4b79fccaf55a39609c083bd7e29400cd5598557 assets\tutorialmod\models\block\tomato_crop_stage3.json
 ff720ea0aea021144b8557786f6e7f9dead2fd78 assets\tutorialmod\blockstates\gem_polishing_station.json
 df604a5827474a72c44e4b635f6e236bec0efdbf assets\tutorialmod\models\item\ruby_chestplate_quartz_trim.json
@@ -156,8 +156,8 @@ fdfadf4fbed71a5d0dee8237f61cf4a05d5b93d4 assets\tutorialmod\models\item\raw_ruby
 45a6cfeb1afce99e79053ca4d18632f2e14932d4 assets\tutorialmod\models\block\tomato_crop_stage2.json
 fd512cabd2eb069956fa814157486a016bf4e210 assets\tutorialmod\models\item\ruby_boots_diamond_trim.json
 3c79b4c9a69046c9e2a0b9f8be6b0c8b98119de0 assets\tutorialmod\blockstates\stripped_chestnut_wood.json
-7e439f9c39ea91be588ddc78cf4cd903b5b9cb70 assets\tutorialmod\blockstates\sound_block.json
 8919d96c2b64e46c6045926e1b7452e940a00ea6 assets\tutorialmod\blockstates\potted_dahlia.json
+7e439f9c39ea91be588ddc78cf4cd903b5b9cb70 assets\tutorialmod\blockstates\sound_block.json
 5738d378b71f16d89cac5c40eef46c85d6c567ca assets\tutorialmod\models\item\chestnut_boat.json
 912c4b0026d1d6329296924e87f360af3228e2e8 assets\tutorialmod\models\block\stripped_chestnut_log_horizontal.json
 c94bcc64b715ec21c36314aea2c434fb814aa1a6 assets\tutorialmod\blockstates\chestnut_wall_sign.json
