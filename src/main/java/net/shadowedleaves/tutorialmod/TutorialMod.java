@@ -20,6 +20,7 @@ import net.shadowedleaves.tutorialmod.util.ModCustomTrades;
 import net.shadowedleaves.tutorialmod.util.ModLootTableModifiers;
 import net.shadowedleaves.tutorialmod.villager.ModVillagers;
 import net.shadowedleaves.tutorialmod.world.gen.ModWorldGeneration;
+import net.shadowedleaves.tutorialmod.world.tree.ModTrunkPlacerTypes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -51,5 +52,6 @@ public class TutorialMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_LEAVES, 30, 60);
 		ModBoats.registerBoats();
 		ModWorldGeneration.generateModWorldGen();
+		ModTrunkPlacerTypes.register();
 	}
 }

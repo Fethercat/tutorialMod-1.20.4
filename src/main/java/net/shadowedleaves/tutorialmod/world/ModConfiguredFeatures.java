@@ -17,6 +17,7 @@ import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.structure.rule.RuleTest;
 import net.minecraft.structure.rule.TagMatchRuleTest;
 import net.minecraft.util.Identifier;
+import net.shadowedleaves.tutorialmod.world.tree.custom.ChestnutTrunkPlacer;
 
 import java.util.List;
 
@@ -49,7 +50,7 @@ public class ModConfiguredFeatures {
 
         register(context, CHESTNUT_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.CHESTNUT_LOG),
-                new StraightTrunkPlacer(5, 4, 3),
+                new ChestnutTrunkPlacer(5, 4, 3),
 
                 BlockStateProvider.of(ModBlocks.CHESTNUT_LEAVES),
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),

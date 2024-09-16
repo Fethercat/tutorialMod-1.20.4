@@ -1,4 +1,4 @@
-// 1.20.4	2024-09-15T09:25:10.9892196	Tutorial Mod/Model Definitions
+// 1.20.4	2024-09-15T14:47:25.9342019	Tutorial Mod/Model Definitions
 ad5c254ef1c302341b0c5136373077cbe54b18ef assets\tutorialmod\models\block\ruby_door_bottom_left.json
 60408af53b4f0f602ab7dd1c56ab00ac9fa2f36b assets\tutorialmod\models\block\chestnut_standing_sign.json
 c4fb1971fbcf884dcf3d21c40988fd0365b2541d assets\tutorialmod\models\item\ruby_boots_copper_trim.json
@@ -76,8 +76,8 @@ adc34350b7efaf373e4975c3758e7b880ede78cd assets\tutorialmod\models\item\ruby_sla
 cc64d3cc92773f7cc42627d2ed90a5783dd15824 assets\tutorialmod\models\block\corn_crop_stage2.json
 ab328a99e65fed08119dbb5356cd6c7edf239107 assets\tutorialmod\models\item\ruby_helmet_netherite_trim.json
 a31d254244420e3751599cfbc5304a9779c2e843 assets\tutorialmod\blockstates\corn_crop.json
-8444238f04261c56864325fc5edb2ff814c1ea77 assets\tutorialmod\models\block\corn_crop_stage8.json
 74dd3aa76a0cede507cba07afd06770704b2f477 assets\tutorialmod\blockstates\ruby_pressure_plate.json
+8444238f04261c56864325fc5edb2ff814c1ea77 assets\tutorialmod\models\block\corn_crop_stage8.json
 1745c258cd87ac4b63dca4fdba401b084b2d3c89 assets\tutorialmod\models\block\chestnut_leaves.json
 d8b2580ea6eef824075bad08fc4b4a5c6bde7a19 assets\tutorialmod\models\item\ruby_helmet_copper_trim.json
 008c25dc48bd67c1342548147ad67b76944e91be assets\tutorialmod\models\block\stripped_chestnut_log.json
